@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Greeting from './components/pure/greeting';
 
 function App() {
   return (
@@ -9,9 +10,10 @@ function App() {
         <p>
           Mostrando mi primera edicion <code>src/App.js</code> en react.js.
         </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
+        
+          {/*COLOCANDO MI PRIMER COMPONETE*/}
+          <Greeting name="Bladimir"></Greeting>
+
       </header>
     </div>
   );
