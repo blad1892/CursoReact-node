@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/pure/greeting';
+import Fgreetings from './components/pure/fgreetings';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         
           {/*COLOCANDO MI PRIMER COMPONETE*/}
           <Greeting name="Bladimir"></Greeting>
+          <Fgreetings name="Bladimir"></Fgreetings>
 
       </header>
     </div>
