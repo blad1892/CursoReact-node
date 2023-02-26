@@ -1,5 +1,5 @@
 
-import {LEVELS} from "./models/levels.enum";
+import {LEVELS} from "./levels.enum";
 
 export class Task{
 

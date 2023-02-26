@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Task } from '../../models/task.class';
+import { Task } from '../../../models/task.class';
 
 
 export const TaskComponent=({ task })=>{
@@ -9,7 +9,7 @@ export const TaskComponent=({ task })=>{
         <h2>Nombre: { task.name }</h2>
         <h3>Descripcion: {task.descripcion }</h3>
         <h4>Nivel: { task.levels } </h4>
-        <h4>Esta tarea esta: { task.complet ? 'Completada' : 'Pendiente' }</h4>
+        <h4>Esta tarea esta: { task.complet ? 'COMPLETADO' : 'PENDIENTE' }</h4>
        </div>    
     )
 }

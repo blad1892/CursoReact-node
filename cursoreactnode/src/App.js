@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/pure/greeting';
-import Fgreetings from './components/pure/fgreetings';
 import TaskListComponent from './components/container/task_list';
+import ComponentB from './components/ejercicio_seccion1_2_3/componente_B';
 
-function App() {
+
+ function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,10 +14,12 @@ function App() {
         </p>
         
           {/*COLOCANDO MI PRIMER COMPONETE*/}
-          <Greeting name="Bladimir"></Greeting>
-          <Fgreetings name="Bladimir"></Fgreetings>
+          
           {/*Componentes de lista de tareas*/}
-          <TaskListComponent></TaskListComponent>
+          <TaskListComponent />
+          {/*Poblando el constructor*/}
+          
+          <ComponentB />
 
       </header>
     </div>
