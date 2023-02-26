@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greeting from './components/pure/greeting';
 import Fgreetings from './components/pure/fgreetings';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           {/*COLOCANDO MI PRIMER COMPONETE*/}
           <Greeting name="Bladimir"></Greeting>
           <Fgreetings name="Bladimir"></Fgreetings>
+          {/*Componentes de lista de tareas*/}
+          <TaskListComponent></TaskListComponent>
 
       </header>
     </div>
